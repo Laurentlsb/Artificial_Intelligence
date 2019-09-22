@@ -4,7 +4,10 @@ Textbook: Artificial Intelligence A Modern Approach (3rd Edision)
 
 ## Contents
 * Adversarial Search
-	* game
+	* Game
+	* [Minimax Algorithm](#1.2)
+	* Alpha-Beta Pruning
+	* Expectimax
 	
 
 # Adversarial Search  
@@ -53,9 +56,8 @@ Stochastic policy: π(s,a) in [0,1]: probability of player p taking action a in 
 ### game value function
 ![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20value%20function.png)
 
-
-## Minimax Algorithm
-
+ 
+<h3 id="1.2">Minimax Algorithm</h3>
 
 
 
