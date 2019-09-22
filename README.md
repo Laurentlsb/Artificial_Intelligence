@@ -28,7 +28,7 @@ Note: A **zero-sum game** is (confusingly) defined as one where the total payoff
 The initial state, ACTIONS function, and RESULT function define the **game tree** for the game—a tree where the nodes are game states and the edges are moves.  
 
 ### A Game Tree
-<div align=center><img width="300" height="300" src="https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20tree.png"/></div>
+<div align=center><img width="500" height="500" src="https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20tree.png"/></div>
 
 
 
