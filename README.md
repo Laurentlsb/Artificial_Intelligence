@@ -38,7 +38,7 @@ The initial state, ACTIONS function, and RESULT function define the **game tree*
 
 ### A Game Tree
 ![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20tree.png)
-
+![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/two%20players.png)
 
 
 
