@@ -9,6 +9,7 @@ Textbook: Artificial Intelligence A Modern Approach (3rd edision)
 
 # Adversarial Search  
 ## Game  
+### Intro
 In this chapter we cover **competitive environments**, in which the agents’ goals are in conflict, giving rise to **adversarial search** problems—often known as **games**.  
 
 In AI, the most common games are of a rather specialized kind—what game theorists call deterministic, turn-taking, two-player, ***zero-sum games*** of ***perfect information*** (such as chess). In our terminology, this means deterministic, fully observable environments in which two agents act alternately and in which the utility values at the end of the game are always equal and opposite. For example, if one player wins a game of chess, the other player necessarily loses. It is this opposition between the agents’ utility functions that makes the situation adversarial.  
@@ -24,4 +25,32 @@ given to the loser. A game can be formally defined as a kind of search problem w
 
 Note: A **zero-sum game** is (confusingly) defined as one where the total payoff to all players is the ***same*** (actually not Zero) for every instance of the game. Chess is zero-sum because every game has payoff of either 0 + 1, 1 + 0 or 0.5 + 0.5 (draw).  
 
-The initial state, ACTIONS function, and RESULT function define the **game tree** for the game—a tree where the nodes are game states and the edges are moves.
+The initial state, ACTIONS function, and RESULT function define the **game tree** for the game—a tree where the nodes are game states and the edges are moves.  
+
+### A Game Tree
+<div align=center><img width="300" height="300" src="https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20tree.png"/></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
