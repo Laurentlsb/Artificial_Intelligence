@@ -23,12 +23,23 @@ given to the loser. A game can be formally defined as a kind of search problem w
 * `TERMINAL-TEST(s)`: A **terminal test**, which is true when the game is over and false otherwise. States where the game has ended are called **terminal states** (like `isEnd(S)`)
 * `UTILITY(s, p)`: A utility function (also called an objective function or payoff function), defines the final numeric value for a game that ends in terminal state s for a player p.
 
-Note: A **zero-sum game** is (confusingly) defined as one where the total payoff to all players is the ***same*** (actually not Zero) for every instance of the game. Chess is zero-sum because every game has payoff of either 0 + 1, 1 + 0 or 0.5 + 0.5 (draw).  
+#### Note: 
+A **zero-sum game** is (confusingly) defined as one where the total payoff to all players is the ***same*** (actually not Zero) for every instance of the game. Chess is zero-sum because every game has payoff of either 0 + 1, 1 + 0 or 0.5 + 0.5 (draw).  
+
+* Zero-sum games:  
+	* Adversarial, pure competition: win for a player is a loss for the other player and vice-versa.  
+	* For a two player game, the sum of the utilities of a state to the two players is zero. So if state has utility +2 for player 1, it has utility -2 for player 2. In game tree shown on previous slide, only utilities for player 1 are shown – the utilities for player 2 are implied. (这里只是说图中的utility只是针对player 1而言的，对于player 2应该是负值，不是说player 1可以提前知道utility)
+	
+* Non zero-sum games
+	* Players have independent utilities; so players are not fighting over one prize.  Payoffs are tuples of utilities – the length of the tuple is the number of players. It is possible to have a win-win situation. 
+	* Cooperation, indifference, competition and other strategies are possible.
 
 The initial state, ACTIONS function, and RESULT function define the **game tree** for the game—a tree where the nodes are game states and the edges are moves.  
 
 ### A Game Tree
 ![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20tree.png)
+
+
 
 
 
