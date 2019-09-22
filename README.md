@@ -1,6 +1,6 @@
 # Artificial_Intelligence
 ELEC 557 Rice University (&amp; UC Berkeley)  
-Textbook: Artificial Intelligence A Modern Approach (3rd edision)
+Textbook: Artificial Intelligence A Modern Approach (3rd Edision)
 
 ## Contents
 * Adversarial Search
@@ -39,6 +39,23 @@ The initial state, ACTIONS function, and RESULT function define the **game tree*
 ### A Game Tree
 ![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20tree.png)
 ![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/two%20players.png)
+
+### classic search VS game tree search
+Solution for a player is not a sequence of actions, but **a policy mapping state set S to the set of actions A**.   
+Why? **Different players have control at different points.**  
+(My understanding is that we cannot foresee the result due to the constraints provided by your opponent is changing, which introduces uncertainty. So there is no way that we can find a sequence of actions as the optimal solution for good.)
+
+### Deterministic and stochastic policies
+Deterministic policy: π(s) in Actions(s): what action does player p take in state s?  
+Stochastic policy: π(s,a) in [0,1]: probability of player p taking action a in state s.  
+(π is the action player takes given the state s)
+
+### game value function
+![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20value%20function.png)
+
+
+## Minimax Algorithm
+
 
 
 
