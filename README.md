@@ -57,7 +57,9 @@ Stochastic policy: π(s,a) in [0,1]: probability of player p taking action a in 
 ![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/game%20value%20function.png)
 
  
-<h3 id="1.2">Minimax Algorithm</h3>
+<h2 id="1.2">Minimax Algorithm</h2>  
+
+![image](https://github.com/Laurentlsb/Artificial_Intelligence/blob/master/img_folder/minimax.png)
 
 
 
